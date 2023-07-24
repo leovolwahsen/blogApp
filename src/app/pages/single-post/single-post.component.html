@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-9">
-            <div class="card">
+            <div class="card shadow-effect">
                 <img src="https://images.unsplash.com/photo-1689975767072-bc518b0e1f66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="sun image" class="card-img-top img-fluid">
                 <div class="card-body">
                     <small class="bg-light text-danger text-center">
@@ -27,7 +27,15 @@
 
                 </div>
             </div>
+
+            <app-comment-form></app-comment-form>
+            <app-comment-list></app-comment-list>
+
         </div>
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <app-post-card></app-post-card>
+            <app-post-card></app-post-card>
+            <app-post-card></app-post-card>
+        </div>
     </div>
 </div>
